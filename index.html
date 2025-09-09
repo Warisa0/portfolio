@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warisa Anwar - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      background: #0f172a;
+      color: #f1f5f9;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: #fff;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      margin: 1rem 0 0;
+      font-size: 1.2rem;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(15, 23, 42, 0.95);
+      padding: 1rem;
+      text-align: center;
+      z-index: 1000;
+    }
+    nav a {
+      color: #f1f5f9;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      padding: 5rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 2rem;
+      text-align: center;
+      color: #facc15;
+    }
+    .skills-icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .skills-icons i {
+      font-size: 3rem;
+      color: #facc15;
+    }
+    .projects, .certifications {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+      color: #f1f5f9;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #facc15;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: .5rem;
+      padding: .5rem 1rem;
+      background: #facc15;
+      color: #0f172a;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      background: #0f172a;
+      color: #f1f5f9;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Warisa Anwar</h1>
+    <p>Software Developer | ML Engineer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Computer Science graduate passionate about software development and ML engineering. Skilled in Java, Python, and modern machine learning frameworks, I aim to contribute to impactful projects while continuously improving my expertise.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-icons">
+      <i class="fab fa-java" title="Java"></i>
+      <i class="fab fa-python" title="Python"></i>
+      <i class="fas fa-database" title="MySQL"></i>
+      <i class="fas fa-code" title="HTML & CSS"></i>
+      <i class="fab fa-git-alt" title="Git"></i>
+      <i class="fab fa-github" title="GitHub"></i>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Rainfall Prediction</h3>
+        <p>Developed ML models (Random Forest, Decision Trees, Regression, K-Means) for rainfall prediction using historical data.</p>
+        <a href="https://github.com/Warisa0/rainfall-prediction-using-ML4" target="_blank" class="button">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Customer Segmentation</h3>
+        <p>Created a K-Means clustering model to segment customers by purchasing behavior and derive marketing insights.</p>
+        <a href="https://github.com/Warisa0/customer-segmentation" target="_blank" class="button">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Fitness Club Website</h3>
+        <p>Built a responsive fitness website homepage with HTML & CSS, including custom-styled forms and navigation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <p><strong>Summer Intern, E-Train India (June - July 2024)</strong><br>
+      Hands-on experience in data preprocessing, model building, and visualization for machine learning projects.</p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications">
+      <div class="card">Machine Learning with Python – IBM</div>
+      <div class="card">SQL & Relational Database 101 – IBM</div>
+      <div class="card">AMUHACKS 3.0 – GDSC AMU</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:warishaanwar40@gmail.com">warishaanwar40@gmail.com</a></p>
+    <p>Phone: +91 9760512682</p>
+    <p><a href="https://www.linkedin.com/in/warisha-anwar-444017269/" target="_blank">LinkedIn</a> | <a href="https://github.com/Warisa0" target="_blank">GitHub</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Warisa Anwar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
